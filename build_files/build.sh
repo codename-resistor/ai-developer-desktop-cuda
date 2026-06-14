@@ -18,6 +18,7 @@ set -ouex pipefail
 
 dnf config-manager addrepo --from-repofile=https://developer.download.nvidia.com/compute/cuda/repos/fedora44/x86_64/cuda-fedora44.repo
 dnf config-manager addrepo --from-repofile=https://resistor-build-yum-prod.s3.us-west-2.amazonaws.com/project-resistor-kernel.repo
+rpm --import https://project-resistor-signed-logs-prod-us-west-2.s3.us-west-2.amazonaws.com/gpg-keys/gpg-signing-key.gpg
 
 dnf -y install nvidia-open
 
