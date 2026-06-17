@@ -1,4 +1,5 @@
 ---
+layout: feature
 name: "CUDA Toolkit"
 status: "stable"
 ---

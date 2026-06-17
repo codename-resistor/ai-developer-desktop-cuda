@@ -1,4 +1,5 @@
 ---
+layout: feature
 name: "Pre-built NVIDIA Open Kernel Modules"
 status: "stable"
 ---
